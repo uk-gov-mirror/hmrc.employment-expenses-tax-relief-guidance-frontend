@@ -128,7 +128,6 @@ cannotClaimReliefTooLongAgo.someoneElse.heading = They can claim for expenses af
 cannotClaimReliefTooLongAgo.link.label = Read claim tax relief for your job expenses
 cannotClaimReliefTooLongAgo.someoneElse.guidance = They can only claim for the current tax year (6 April {0} to 5 April {1}) and the 4 previous tax years.
 
-
 paidTaxInRelevantYear.you.title = Are you claiming for expenses after 5 April {0}?
 paidTaxInRelevantYear.you.heading = Are you claiming for expenses after 5 April {0}?
 paidTaxInRelevantYear.you.error.required = Select yes if you are claiming for expenses after 5 April {0}
@@ -273,7 +272,7 @@ willNotPayTax.you.heading =  You cannot claim these expenses
 willNotPayTax.you.guidance1 = You can only claim these expenses if you {0}.
 willNotPayTax.you.guidance2 = You can still {0} but you will not get any expenses back unless you pay tax.
 willNotPayTax.someoneElse.title =  They cannot claim these expenses
-willNotPayTax.someoneElse.heading =  You cannot claim these expenses
+willNotPayTax.someoneElse.heading =  They cannot claim these expenses
 willNotPayTax.someoneElse.guidance1 = They can only claim these expenses if they {0}.
 willNotPayTax.someoneElse.guidance2 = They can still {0} but they will not get any expenses back unless they pay tax.
 willNotPayTax.you.link1 = paid tax in each tax year you are claiming for
@@ -283,6 +282,6 @@ willNotPayTax.link2 = claim expenses for the current tax year (6 April {0} to 5 
 willPayTax.you.title = Did you pay tax in each of the years you are claiming for?
 willPayTax.you.heading = Did you pay tax in each of the years you are claiming for?
 willPayTax.you.error.required = Select yes if you have paid tax in each of the years you are claiming for
-willPayTax.someoneElse.title = Have they pay tax in each of the years you are claiming for?
-willPayTax.someoneElse.heading = Have they pay tax in each of the years you are claiming for?
-willPayTax.someoneElse.error.required = Select yes if they have paid tax in each of the years you are claiming for
+willPayTax.someoneElse.title = Have they paid tax in each of the years they are claiming for?
+willPayTax.someoneElse.heading = Have they paid tax in each of the years they are claiming for?
+willPayTax.someoneElse.error.required = Select yes if they have paid tax in each of the years they are claiming for
