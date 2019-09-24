@@ -93,8 +93,8 @@ registerForSelfAssessment.link.external.label =  register for and file Self Asse
 registerForSelfAssessment.guidance1 = Because your expenses are £2,500 or more in some of the tax years you are claiming for, you must claim them as part of a Self Assessment tax return.
 registerForSelfAssessment.guidance2 = Find out how to
 
-usePrintAndPost.title = You can claim tax relief for these expenses by post
-usePrintAndPost.heading = You can claim tax relief for these expenses by post
+usePrintAndPost.title = You must claim for these job expenses by post
+usePrintAndPost.heading = You must claim for these job expenses by post
 usePrintAndPost.link.label = Claim by post
 
 claimOnline.title = You are eligible to claim these job expenses online
