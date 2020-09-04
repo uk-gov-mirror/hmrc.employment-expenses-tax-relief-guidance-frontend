@@ -35,23 +35,12 @@ class ClaimOnlineController @Inject()(
   def onPageLoad: Action[AnyContent] = (getData andThen requireData) {
     implicit request =>
 
-      val covidHomeWorkingOptionality = if (!request.userAnswers.covidHomeWorking.nonEmpty &&
-        !request.userAnswers.onlyWorkingFromHomeExpenses.nonEmpty) {
-        None
-      } else {
-        Some(
-          if (!request.userAnswers.moreThanFiveJobs.isDefined) {
-            true
-          } else {
-            request.userAnswers.moreThanFiveJobs.getOrElse(false)
-          }
-        )
-      }
+      request.userAnswers.covidHomeWorking match {
 
-      covidHomeWorkingOptionality match {
         case Some(true) => Ok(view(OnwardJourney.WorkingFromHomeExpensesOnly))
         case Some(false) => Ok(view(OnwardJourney.IForm))
-        case None =>
+        case _ =>
+
           request.userAnswers.claimingFor match {
             case Some(claiming) =>
               val onwardJourney =
